@@ -3,7 +3,7 @@
 }
 
 .search-realestate {
-  padding: 10px 5px 10px 5px;
+  padding: 7px 0;
   background-color: #5d4d49;
 }
 
@@ -16,3 +16,17 @@
   border: 1px solid white;
 }
 
+.search-realestate_expand p {
+  text-align: left;
+}
+
+.search-realestate_heading p,
+.search-realestate_expand p {
+  color: white;
+}
+
+@media only screen and (min-width: 576px) {
+  .search-realestate_expand p {
+    text-align: right;
+  }
+}

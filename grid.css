@@ -9,7 +9,7 @@
 
 .row {
   max-width: 1200px;
-  padding: 0 10px;
+  padding: 0 5px;
   margin: 0 auto;
 }
 
@@ -53,7 +53,8 @@
 .col-md-12 {
   float: left;
   padding-left: 1.041666%;
-  padding-right: 1.041666%;
+	padding-right: 1.041666%;
+	margin-top: 10px;
 }
 
 .col-sm-1, 
@@ -113,6 +114,10 @@
 	width: 100%;
 }
 
+.remove-xs-row-offset {
+	margin-top: 0;
+}
+
 /* NON-MOBILE GRID */
 /* --------------- */
 
@@ -155,6 +160,9 @@
 		width: 100%;
 	}
 
+	.remove-sm-row-offset {
+		margin-top: 0;
+	}
 }
 
 /* MD */
