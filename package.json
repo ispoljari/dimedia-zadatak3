@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=8080 --open=client"
+    "start": "live-server --port=8080"
   },
   "author": "Ivan Spoljaric",
   "license": "ISC",
