@@ -3,5 +3,16 @@
 }
 
 .search-realestate {
+  padding: 10px 5px 10px 5px;
   background-color: #5d4d49;
 }
+
+.search-realestate_intent,
+.search-realestate_type,
+.search-realestate_input-city,
+.search-realestate_show-list,
+.search-realestate_show-map {
+  min-height: 20px;
+  border: 1px solid white;
+}
+
