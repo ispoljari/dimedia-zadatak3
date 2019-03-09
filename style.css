@@ -46,3 +46,7 @@ input[type="radio"] {
   -moz-appearance: checkbox;    /* Firefox */
   -ms-appearance: checkbox;     /* not currently supported */
 }
+
+.search-realestate_input-city input {
+  width: 100%;
+}

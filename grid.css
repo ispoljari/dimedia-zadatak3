@@ -141,7 +141,7 @@
 
 /* SM */
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 420px) {
   .col-sm-1 {
 		width: 8.333333%;
 	}
