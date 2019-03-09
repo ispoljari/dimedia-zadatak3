@@ -8,8 +8,13 @@ body {
 }
 
 .search-realestate {
-  padding: 7px 0;
+  padding: 10px 0;
   background-color: #5d4d49;
+}
+
+.search-realestate_intent {
+  padding: 10px;
+  background-color: white;
 }
 
 .search-realestate_intent,
@@ -34,4 +39,10 @@ body {
   .search-realestate_expand p {
     text-align: right;
   }
+}
+
+input[type="radio"] {
+  -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+  -moz-appearance: checkbox;    /* Firefox */
+  -ms-appearance: checkbox;     /* not currently supported */
 }

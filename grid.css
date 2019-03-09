@@ -52,8 +52,8 @@
 .col-md-10, 
 .col-md-12 {
   float: left;
-  padding-left: 1.041666%;
-	padding-right: 1.041666%;
+  padding-left: 5px;
+	padding-right: 5px;
 	margin-top: 10px;
 }
 
